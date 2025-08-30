@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <meta charset="utf8">
+        <title>My Service </title>
+        <style>
+         *{
+            margin: 0px;
+            padding:5px;
+         }
+        :root {
+         --primary-color: #6B7280;
+         --secoundary-color:#EAB308;
+         --background-color:#111827;
+         --div-color:#020617;
+         }
+         body{
+            color: white;
+            background-color: var(--background-color);
+         }
+         section{
+            width: 80%;
+            display: flex;
+            /* justify-content: flex-start;
+            align-items: center; */
+            flex-direction: column;
+            margin: auto;
+
+         }
+         .content{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+         }
+          h2{
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 64px;
+         }
+         span{
+            color: #EAB308;
+         }
+         .content p{
+            width: 461px;
+            height: 81px;
+            color: var(--primary-color);
+            font-weight: 400;
+            font-style:Regular;
+            font-size: 16px;
+            line-height: 27px;
+         }
+         .divs{
+            display: flex;
+            margin-top: 10px;
+            gap: 10px;
+         }
+         .divs div{
+            background-color: var(--div-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 15px;
+            padding: 20px;
+
+         }
+         h3{
+            text-align: center;
+         }
+         .divs div p{
+            text-align: center;
+            color: var(--primary-color);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
+         }
+        .divs div div img{
+            background-color: #EAB308;
+            width:50px;
+            height: 50px;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="content">
+                <h2>My <span> Service</span> </h2>
+                <p>There are many variations of passages ofLorem Ipsum
+                 available, but the majority havesuffered alteration in some 
+                 form, by injected humour,</p>
+            </div>
+
+            <div class="divs">
+                <div class="Digital Marketing">
+                    <div><img src=" "></div>
+                    <h3>Digital Marketing</h3>
+                    <p>There are many variations of passages ofLorem Ipsumavailable, but the majority havesuffered 
+                        alteration in some </p>
+            
+                </div>
+                <div class="Web Devlopment">
+                    <div><img src=" "></div>
+                    <h3>Web Devlopment</h3>
+                    <p>There are many variations of passages ofLorem Ipsumavailable, but the majority havesuffered 
+                    alteration in some </p>
+                </div>
+                <div class="Creative Graphic Design">
+                    <div><img src=" "></div>
+                    <h3>Creative Graphic Design</h3>
+                    <p>There are many variations of passages ofLorem Ipsumavailable, but the majority havesuffered 
+                    alteration in some </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</htm>

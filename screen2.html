@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title> about mw</title>
+        <style>
+         *{
+            padding: 0px;
+            margin: 0px;
+
+         }
+         :root {
+         --primary-color: #6B7280;
+         --secoundary-color:#EAB308;
+         --background-color:#020617;
+         }
+         body{
+            color: white;
+            background-color: var(--background-color);
+         }
+         .container{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            height: 100vh;
+            margin: auto;
+            
+         }
+         .image{
+            width: 40%;
+         }
+         .text{
+            width: 40%;
+            text-align: left;
+            height: 348px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+         }
+         h2{
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 64px;
+         }
+         span{
+            color: #EAB308;
+         }
+         p{
+             width: 466px;
+             height: 81px;
+             padding-top: 30px;
+             color:#6B7280 ;
+             font-family: Arial, Helvetica, sans-serif;   
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 27px;
+            }
+         .image{
+            width: 40%; 
+            position:relative;
+            display: flex;
+         }
+
+          .image img{
+             background-image: contain;
+             border: 0px solid;
+             border-radius: 24px;
+             width:350px;
+             height:350px;
+             transform: scalex(-1);
+             position: absolute;
+             left: 20px;
+             bottom:15px;
+             
+         } 
+         
+         .border{
+             width:330px;
+             height:330px;
+             z-index:-1; 
+             border: 12px solid var(--secoundary-color);
+             border-radius: 24px;
+             position: relative;
+
+            }
+         button{
+                padding: 13px;
+                color: black;
+                margin-top: 15px;
+                background-color:#EAB308 ;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                font-size: 16px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <div class="border"> </div>
+               <div><img src="photo2.png"alt="photo"></div> 
+            </div>
+            <div class="text">
+                <h2>About <span>Me</span></h2>
+                <p>There are many variations of passages ofLorem Ipsum
+                available, but the majority havesuffered alteration in some 
+                form, by injected humour,</p>
+                <p>Passages ofLorem Ipsumavailable, but the majority havesuffered
+                alteration in some form, by injected humour,</p>
+                <button>Contact us</button>
+            </div>
+        </div>
+    </body>
+</html>
